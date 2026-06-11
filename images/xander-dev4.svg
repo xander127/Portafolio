@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120">
+    <g fill="#FFFFFF">
+
+        <!-- Símbolo código -->
+        <text x="400" y="30"
+              text-anchor="middle"
+              font-family="monospace"
+              font-size="32"
+              font-weight="bold">
+            &lt;/&gt;
+        </text>
+
+        <!-- Texto -->
+        <text x="400"
+              y="95"
+              text-anchor="middle"
+              font-family="'Courier New', monospace"
+              font-size="72"
+              font-weight="900">
+            XanderDev
+        </text>
+
+    </g>
+</svg>

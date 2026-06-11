@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250">
+    <g fill="#FFFFFF">
+
+        <!-- Decoraciones -->
+        <rect x="145" y="35" width="8" height="8"/>
+        <rect x="153" y="43" width="8" height="8"/>
+        <rect x="145" y="51" width="8" height="8"/>
+        <rect x="137" y="43" width="8" height="8"/>
+
+        <rect x="745" y="35" width="8" height="8"/>
+        <rect x="753" y="43" width="8" height="8"/>
+        <rect x="745" y="51" width="8" height="8"/>
+        <rect x="737" y="43" width="8" height="8"/>
+
+        <!-- Símbolo código -->
+        <text x="450" y="70"
+              text-anchor="middle"
+              font-family="monospace"
+              font-size="48"
+              font-weight="bold"
+              fill="#FFFFFF">&lt;/&gt;</text>
+
+        <!-- Marco pixel -->
+        <path d="
+            M80 100
+            H250
+            V108
+            H88
+            V190
+            H250
+            V198
+            H80
+            V100
+
+            M650 100
+            H820
+            V198
+            H650
+            V190
+            H812
+            V108
+            H650
+            V100
+        " fill="#FFFFFF"/>
+
+        <!-- Texto -->
+        <text x="450"
+              y="170"
+              text-anchor="middle"
+              font-family="'Courier New', monospace"
+              font-size="92"
+              font-weight="900"
+              fill="#FFFFFF">
+            XanderDev
+        </text>
+
+    </g>
+</svg>
