@@ -83,20 +83,39 @@ header{
 }
 
 .main{
-    height: 70vh;
+    min-height: 85vh;
     background-color: var(--contrast-color-light);
     width: 1000px;
     border-radius: 10px;
+
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
 
+    margin-bottom: 10px;
     font-size: 1rem;
 
     scroll-margin-top: 20vh;
+
+    padding: 1rem 0;
 }
 
+.main article{
+    padding: 0 4rem;
+}
+
+.main article button{
+    justify-content: center;
+    padding: .5rem;
+    color: var(--contrast-color-light);
+    border-style: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+.main article button:hover{
+    cursor: pointer;
+    color: var(--contrast-color-dark);
+}
 
 footer{
     width: 100%;
@@ -111,6 +130,35 @@ footer{
 
     position: relative;
     z-index: 1;
+
+    font-size: 0.8rem;
+}
+.main article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* background-color: #ff0000; */
+}
+
+.main-presentacion-texto{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.main-presentacion-links{
+    width: auto;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.main-content3{
+    ul{
+        list-style: none;
+    }
 }
 
 @media (max-width: 1020px) {
@@ -158,6 +206,10 @@ footer{
         margin-bottom: 1rem;
     }
 
+    .main article{
+        padding: 0 1rem;
+    }
+
 }
 
 @media (max-width: 380px) {
@@ -180,3 +232,46 @@ footer{
     }
 
 }
+
+/*
+@media (orientation: landscape) {
+  
+    body { padding-top: 4.25rem; }
+
+
+    #main-container {
+        gap: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    
+    .main {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+*/
+/*
+@media (orientation: landscape) and (min-width: 900px) {
+
+    .main {
+        height: auto;
+        padding: 1.5rem 1rem;
+    }
+
+  
+    header {
+        padding: 0.75rem 1rem;
+    }
+
+    .nav-list {
+        gap: 0.75rem;
+        font-size: 0.95rem;
+    }
+}*/
